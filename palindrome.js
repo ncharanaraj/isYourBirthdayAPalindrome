@@ -130,5 +130,7 @@ function getNextPalindromeDate(date){
     return [counter, nextDate]
 }
 
-
+const birthDateInput = document.querySelector("#date-input");
+const palindromeBtn = document.querySelector("#check-palindrome");
+const showMessage = document.querySelector("#show-message");
 
